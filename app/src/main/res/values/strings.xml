@@ -1,0 +1,15 @@
+<resources>
+    <!-- שם האפליקציה (מופיע בראש הטלפון) -->
+    <string name="app_name">שאל אותי!</string>
+
+    <!-- כותרות ותוויות ב-UI -->
+    <string name="app_title">שאל אותי! 📱</string>
+    <string name="app_subtitle">שיעור 6 — Event Handling</string>
+    <string name="hint_name">הכנס שם...</string>
+    <string name="btn_greet">ברוך הבא</string>
+    <string name="btn_clear">נקה</string>
+
+    <!-- הודעות -->
+    <string name="msg_greeting">שלום, %1$s! ברוך הבא לאפליקציה!</string>
+    <string name="msg_empty">אנא הכנס שם קודם</string>
+</resources>

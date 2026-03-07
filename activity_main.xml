@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    שיעור 6: Event Handling
+    משימה: השלם את ה-XML כדי שיכיל את כל הרכיבים הנדרשים
+
+    רכיבים שחסרים / TODO:
+    1. EditText עם id="editTextName"
+    2. שני Buttons: btnGreet ו-btnClear
+    3. TextView עם id="textViewResult"
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- כותרת האפליקציה -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="שאל אותי!"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- TODO: הוסף EditText לקלט שם -->
+    <!-- רמז:
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="הכנס שם..."
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp"/>
+    -->
+
+    <!-- TODO: הוסף LinearLayout אופקי עם שני כפתורים -->
+    <!-- שים לב: כל כפתור יתפוס 0dp width עם weight="1" -->
+
+    <!-- TODO: הוסף TextView להצגת התוצאה -->
+    <!-- רמז: textSize="20sp", gravity="center", layout_marginTop="32dp" -->
+
+</LinearLayout>
